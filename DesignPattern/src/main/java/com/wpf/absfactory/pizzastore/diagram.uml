@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="458.0" y="49.0">com.wpf.absfactory.pizzastore.pizza.LDPepperPizza</node>
+    <node x="280.0" y="49.0">com.wpf.absfactory.pizzastore.pizza.BJPepperPizza</node>
+    <node x="475.0" y="243.0">com.wpf.absfactory.pizzastore.order.LDFactory</node>
+    <node x="292.0" y="123.0">com.wpf.absfactory.pizzastore.order.OrderPizza</node>
+    <node x="132.0" y="-14.0">com.wpf.absfactory.pizzastore.pizza.Pizza</node>
+    <node x="-76.5" y="49.0">com.wpf.absfactory.pizzastore.pizza.LDChessPizza</node>
+    <node x="105.5" y="49.0">com.wpf.absfactory.pizzastore.pizza.BJChessPizza</node>
+    <node x="471.0" y="123.0">com.wpf.absfactory.pizzastore.order.AbsFactory</node>
+    <node x="477.0" y="179.0">com.wpf.absfactory.pizzastore.order.BJFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.wpf.absfactory.pizzastore.pizza.BJChessPizza" target="com.wpf.absfactory.pizzastore.pizza.Pizza" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.wpf.absfactory.pizzastore.pizza.BJPepperPizza" target="com.wpf.absfactory.pizzastore.pizza.Pizza" relationship="GENERALIZATION">
+      <point x="-0.0" y="-14.0" />
+      <point x="355.0" y="0.0" />
+      <point x="43.0" y="-0.0" />
+    </edge>
+    <edge source="com.wpf.absfactory.pizzastore.order.BJFactory" target="com.wpf.absfactory.pizzastore.order.AbsFactory" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.wpf.absfactory.pizzastore.order.LDFactory" target="com.wpf.absfactory.pizzastore.order.AbsFactory" relationship="REALIZATION">
+      <point x="60.0" y="0.0" />
+      <point x="629.5" y="257.0" />
+      <point x="629.5" y="137.0" />
+      <point x="64.0" y="0.0" />
+    </edge>
+    <edge source="com.wpf.absfactory.pizzastore.pizza.LDChessPizza" target="com.wpf.absfactory.pizzastore.pizza.Pizza" relationship="GENERALIZATION">
+      <point x="-0.0" y="-14.0" />
+      <point x="-5.0" y="0.0" />
+      <point x="-43.0" y="-0.0" />
+    </edge>
+    <edge source="com.wpf.absfactory.pizzastore.pizza.LDPepperPizza" target="com.wpf.absfactory.pizzastore.pizza.Pizza" relationship="GENERALIZATION">
+      <point x="-0.0" y="-14.0" />
+      <point x="535.0" y="-31.5" />
+      <point x="175.0" y="-31.5" />
+      <point x="-0.0" y="-14.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.0" showDependencies="false" x="314.5" y="77.0" />
+  <SelectedNodes>
+    <node>com.wpf.absfactory.pizzastore.order.LDFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

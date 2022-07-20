@@ -1,8 +1,8 @@
 package com.wpf.factorymethod.pizzastore.order;
 
-import com.wpf.factorymethod.pizzastore.pizza.BJChessPizza;
-import com.wpf.factorymethod.pizzastore.pizza.BJPepperPizza;
-import com.wpf.factorymethod.pizzastore.pizza.Pizza;
+import com.wpf.absfactory.pizzastore.pizza.BJChessPizza;
+import com.wpf.absfactory.pizzastore.pizza.BJPepperPizza;
+import com.wpf.absfactory.pizzastore.pizza.Pizza;
 
 /**
  * @author: 武鹏飞

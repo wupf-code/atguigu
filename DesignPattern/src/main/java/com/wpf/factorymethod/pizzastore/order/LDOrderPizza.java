@@ -1,9 +1,9 @@
 package com.wpf.factorymethod.pizzastore.order;
 
 
-import com.wpf.factorymethod.pizzastore.pizza.LDChessPizza;
-import com.wpf.factorymethod.pizzastore.pizza.LDPepperPizza;
-import com.wpf.factorymethod.pizzastore.pizza.Pizza;
+import com.wpf.absfactory.pizzastore.pizza.LDChessPizza;
+import com.wpf.absfactory.pizzastore.pizza.LDPepperPizza;
+import com.wpf.absfactory.pizzastore.pizza.Pizza;
 
 /**
  * @author: 武鹏飞

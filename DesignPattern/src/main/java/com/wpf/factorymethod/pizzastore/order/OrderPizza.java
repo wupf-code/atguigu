@@ -1,7 +1,7 @@
 package com.wpf.factorymethod.pizzastore.order;
 
 
-import com.wpf.factorymethod.pizzastore.pizza.Pizza;
+import com.wpf.absfactory.pizzastore.pizza.Pizza;
 
 import java.util.Scanner;
 
